@@ -8,6 +8,17 @@
         align-items: center;
         justify-content: space-between;
         height: 100px;
+        
+        button{
+            padding: 15px;
+            border-radius: 10px;
+            background-color: transparent;
+            color: white;
+            border: solid 1px white;
+            margin-right: 20px;
+            font-weight: 300;
+            cursor: pointer;
+        }
 
     }
 
