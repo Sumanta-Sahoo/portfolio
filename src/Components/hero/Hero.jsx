@@ -30,7 +30,7 @@ const textVariants = {
   },
   scrollButton: {
     opacity:0,
-    y : 10,
+    y : 20,
     transition:{
       duration:2,
       repeat:Infinity,
