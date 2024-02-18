@@ -1,3 +1,4 @@
+import Contact from "./Components/Contact/Contact";
 import Parallax from "./Components/Parallax/Parallax";
 import PortProject from "./Components/PortProject/PortProject";
 import Skills from "./Components/Skills/Skills";
@@ -26,7 +27,9 @@ const App = () => {
       Collab Parallax
     </section>
     <section>Collaboration</section> */}
-    <section id="Contact">Contact</section>
+    <section id="Contact">
+      <Contact></Contact>
+    </section>
 
 
   </div>
