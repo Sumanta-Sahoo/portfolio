@@ -1,4 +1,5 @@
 import Parallax from "./Components/Parallax/Parallax";
+import PortProject from "./Components/PortProject/PortProject";
 import Skills from "./Components/Skills/Skills";
 import Hero from "./Components/hero/Hero";
 import Navbar from "./Components/navabr/Navbar";
@@ -19,11 +20,12 @@ const App = () => {
     <section id="Projects">
       <Parallax type="projects"></Parallax>
     </section>
-    <section>Project1</section>
-    <section>Project2</section>
-    <section>Project2</section>
-    <section id="Collaborations">Parallax</section>
-    <section>Collaboration</section>
+    <PortProject></PortProject>
+    {/*Update this section after creating full stack application and make contribution to opensource projects*/}
+    {/* <section id="Collaborations">
+      Collab Parallax
+    </section>
+    <section>Collaboration</section> */}
     <section id="Contact">Contact</section>
 
 

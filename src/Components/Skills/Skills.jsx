@@ -37,38 +37,38 @@ const Skills = () => {
             <motion.h1 ><motion.b whileHover={{color:"orange"}}>Unique </motion.b>Ideas</motion.h1>
         </motion.div>
         <motion.div className="title">
-            <motion.h1><motion.b whileHover={{color:"orange"}}>For Your </motion.b>Bussiness</motion.h1>
+            <motion.h1><motion.b whileHover={{color:"orange"}}>Make Them </motion.b>LIVE</motion.h1>
             <button>WHAT I DO?</button>
         </motion.div>
       </motion.div>
       <motion.div className="listContainer" >
         <motion.div className="box" whileHover={{backgroundColor:"lightgray", color:"black"}}>
-            <h2>Branding 1</h2>
+            <h2>Latest Work 1</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Sed commodi possimus distinctio beatae voluptas magnam in 
                 temporibus rerum omnis vitae?</p>
-                <button>GO</button>
+                <motion.button whileHover={{backgroundColor:"#111132", color:"white"}}>GO</motion.button>
         </motion.div>
         <motion.div className="box" whileHover={{backgroundColor:"lightgray", color:"black"}}>
-            <h2>Branding 2</h2>
+            <h2>Latest Work 2</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Sed commodi possimus distinctio beatae voluptas magnam in 
                 temporibus rerum omnis vitae?</p>
-                <button>GO</button>
+                <motion.button whileHover={{backgroundColor:"#111132", color:"white"}}>GO</motion.button>
         </motion.div>
         <motion.div className="box" whileHover={{backgroundColor:"lightgray", color:"black"}}>
-            <h2>Branding 3</h2>
+            <h2>Latest Work 3</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Sed commodi possimus distinctio beatae voluptas magnam in 
                 temporibus rerum omnis vitae?</p>
-                <button>GO</button>
+                <motion.button whileHover={{backgroundColor:"#111132", color:"white"}}>GO</motion.button>
         </motion.div>
         <motion.div className="box" whileHover={{backgroundColor:"lightgray", color:"black"}}>
-            <h2>Branding 4</h2>
+            <h2>Latest Work 4</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Sed commodi possimus distinctio beatae voluptas magnam in 
                 temporibus rerum omnis vitae?</p>
-                <button>GO</button>
+                <motion.button whileHover={{backgroundColor:"#111132", color:"white"}}>GO</motion.button>
         </motion.div>
       </motion.div>
     </motion.div>
