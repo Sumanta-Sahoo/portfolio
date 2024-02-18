@@ -1,4 +1,5 @@
 import Contact from "./Components/Contact/Contact";
+import Curson from "./Components/Cursor/Curson";
 import Parallax from "./Components/Parallax/Parallax";
 import PortProject from "./Components/PortProject/PortProject";
 import Skills from "./Components/Skills/Skills";
@@ -8,6 +9,7 @@ import "./app.scss";
 
 const App = () => {
   return <div>
+    <Curson></Curson>
     <section id="Homepage" >
       <Navbar></Navbar>
       <Hero></Hero>
@@ -30,7 +32,6 @@ const App = () => {
     <section id="Contact">
       <Contact></Contact>
     </section>
-
 
   </div>
 };
