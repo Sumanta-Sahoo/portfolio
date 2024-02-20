@@ -34,7 +34,7 @@ const Single = ({ items }) => {
         <div className="imageContainer" ref={ref}>
           <img src={items.img} alt="" />
         </div>
-        <motion.div className="textContainer" style={{y}}>
+        <motion.div className="textContainer"   style={{y}}>
           <h2>{items.title}</h2>
           <p>{items.desc}</p>
           <button>Visit Demo</button>

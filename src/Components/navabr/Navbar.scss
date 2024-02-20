@@ -1,5 +1,8 @@
+@import "../../App.scss";
+
 .navbar{
     height: 100px;
+    
 
     .wrapper{
         max-width: 1066px;
@@ -8,6 +11,11 @@
         align-items: center;
         justify-content: space-between;
         height: 100px;
+
+        @include mobile{
+            justify-content: flex-end;
+            padding: 20px;
+        }
         
         button{
             padding: 15px;
@@ -18,6 +26,10 @@
             margin-right: 20px;
             font-weight: 300;
             cursor: pointer;
+
+            @include mobile{
+                display: none;
+            }
         }
 
     }
@@ -25,6 +37,10 @@
     span{
         font-size: large;
         font-weight: bold;
+
+        @include mobile{
+            display: none;
+        }
     }
 
     .social{

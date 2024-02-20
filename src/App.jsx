@@ -5,7 +5,7 @@ import PortProject from "./Components/PortProject/PortProject";
 import Skills from "./Components/Skills/Skills";
 import Hero from "./Components/hero/Hero";
 import Navbar from "./Components/navabr/Navbar";
-import "./app.scss";
+import "./App.scss";
 
 const App = () => {
   return <div>
@@ -24,7 +24,7 @@ const App = () => {
       <Parallax type="projects"></Parallax>
     </section>
     <PortProject></PortProject>
-    {/*Update this section after creating full stack application and make contribution to opensource projects*/}
+    {/* Update this section after creating full stack application and make contribution to opensource projects */}
     {/* <section id="Collaborations">
       Collab Parallax
     </section>
