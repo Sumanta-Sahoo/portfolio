@@ -1,4 +1,4 @@
-import Sidebar from "../sidebar/SIdebar";
+import Sidebar from "../SIdebar/SIdebar";
 import "./Navbar.scss";
 import { motion } from "framer-motion";
 
