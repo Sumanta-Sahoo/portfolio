@@ -80,8 +80,11 @@
 
         img {
             width: 100%;
-            height: 100%;
+            height: 85%;
             object-fit: cover;
+            position: relative;
+            top: 45px;
+            right: 130px;
 
             @include mobile {
                 height: 100%;

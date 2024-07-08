@@ -56,7 +56,7 @@ const Hero = () => {
         Full Stack Developer / Designer
       </motion.div>
       <div className="imageConatainer">
-        <img src="/summ-removebg.png" alt="heroImg" />
+        <img src="\hero.png" alt="heroImg" />
       </div>
       <img src="/stars.png" alt="" />
     </div>
