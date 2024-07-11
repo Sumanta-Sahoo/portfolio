@@ -1,6 +1,6 @@
 import Contact from "./Components/Contact/Contact";
 import Curson from "./Components/Cursor/Curson";
-import Parallax from "./Components/Parallax/Parallax";
+// import Parallax from "./Components/Parallax/Parallax";
 import PortProject from "./Components/PortProject/PortProject";
 import Skills from "./Components/Skills/Skills";
 import Hero from "./Components/hero/Hero";
@@ -14,16 +14,13 @@ const App = () => {
       <Navbar></Navbar>
       <Hero></Hero>
     </section>
-    <section id="Skills">
-      <Parallax type="skills"></Parallax>
-    </section>
+    <PortProject></PortProject>
     <section>
       <Skills></Skills>
     </section>
-    <section id="Projects">
+    {/* <section id="Projects">
       <Parallax type="projects"></Parallax>
-    </section>
-    <PortProject></PortProject>
+    </section> */}
     {/* Update this section after creating full stack application and make contribution to opensource projects */}
     {/* <section id="Collaborations">
       Collab Parallax
