@@ -7,9 +7,12 @@
     position: relative;
 
     .wrapper {
+        position: relative;
         max-width: 1066px;
         height: 100%;
         margin: auto;
+        z-index: 1;
+
         // background-color: white;
 
         .textContainer {
@@ -103,6 +106,7 @@
         font-weight: bold;
         width: 50%;
 
+
         @include mobile {
             position: absolute;
             font-size: 30vh;
@@ -113,4 +117,6 @@
             width: 50%;
         }
     }
+
+
 }
