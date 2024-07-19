@@ -19,9 +19,10 @@ const items = [
   },
   {
     id: 3,
-    title: "Project Name 3",
-    img: "https://images.pexels.com/photos/19982818/pexels-photo-19982818/free-photo-of-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-    desc: "In Visual Studio Code (VSCode), duplicate shortcuts can occur if you have conflicting keybindings or if multiple extensions define the same shortcut. Here's how you can troubleshoot and resolve duplicate shortcuts in VSCode"
+    title: "Project Management Web Application",
+    img: "/pmanage.png",
+    desc: "This project aims to deploy a web application for project management, enabling users to create and manage projects efficiently. It provides features for creating projects, inviting users to join, managing issues, project-based communication through chats, and subscription plans.",
+    projectLink: "https://github.com/Sumanta-Sahoo/Project-Management-Web-Application.git"
   }
 ];
 
@@ -40,7 +41,7 @@ const Single = ({ items }) => {
           <h2>{items.title}</h2>
           <p>{items.desc}</p>
           {/* <button>Visit Demo</button> */}
-          <button><a href={items.projectLink} target="blank">Visit Link</a></button>
+          <button><a href={items.projectLink} target="blank">Visit Project</a></button>
         </motion.div>
       </div>
     </div>
