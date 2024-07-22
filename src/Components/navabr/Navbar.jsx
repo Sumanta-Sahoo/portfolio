@@ -29,7 +29,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: .5 }}>
           <motion.button>
-            <a href="https://drive.google.com/file/d/1m3-9MBcLhFLetsXXJGxQWOD-Jkj2nH6c/view?usp=sharing" target="blank">View Resume</a>
+            <a href="https://drive.google.com/file/d/1DZNQlaFFbL4o4FrU3sHL8C3xkXPA8PVh/view?usp=sharing" target="blank">View Resume</a>
           </motion.button>
         </motion.div>
       </div>
